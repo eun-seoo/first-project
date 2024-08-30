@@ -1,6 +1,9 @@
 #include<stdio.h>
 
 int main() {
-	printf("hello world");
+	
+
+	for (int index = 0; index < 10; index++)
+		printf("%d", index);
 	return 0;
 }
